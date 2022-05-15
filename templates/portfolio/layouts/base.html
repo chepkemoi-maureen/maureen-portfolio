@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="assets/image/logo/favicon.ico">
+    <title>Lizu - Portfolio Responsive HTML Template</title>
+    {% include 'portfolio/include/styles.html' %}
+</head>
+
+<body>
+    <!-- ===============  preloader Area Start ====================-->
+    <div id="preloader">
+        <div class="loader">
+            <img src="assets/image/logo/loader.gif" alt="preloader">
+        </div>
+    </div>
+<!--    header-->
+    {% include 'portfolio/components/header.html' %}
+    {% block content %}{% endblock %}
+    <!-- ===============  preloader Area End ====================-->
+    <!-- =============== 1.9 Footer Area Start ====================-->
+    <footer>
+        <p><a target="_blank" href="#">{% now "Y" %}</a></p>
+    </footer>
+    {% include 'portfolio/include/scripts.html' %}
+</body>
+</html>

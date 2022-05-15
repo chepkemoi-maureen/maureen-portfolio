@@ -1,0 +1,68 @@
+    {% load static %}
+    <section class="portfolio-area" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Our Portfolio</h2>
+                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="filtering-btn">
+                        <ul class="filter-button-group">
+                            <li class="filter-btn active-btn" data-filter="*">All Project</li>
+                            <li class="filter-btn" data-filter=".webdesign">Web Design</li>
+                            <li class="filter-btn" data-filter=".uidesign">UI/UX Design</li>
+                            <li class="filter-btn" data-filter=".photography">Photography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="col-lg-4 col-md-6 grid-item uidesign photography">
+                    <a href="{% static 'assets/image/portfolio/1.jpg' %}" class="light-box">
+                        <div class="port-img">
+                            <img src="{% static 'assets/image/portfolio/image1.jpg' %}" alt="portlio-image" class="img-fluid">
+                             <span>Photography</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item photography webdesign">
+                    <a href="{% static 'assets/image/portfolio/2.jpg' %}" class="light-box">
+                        <div class="port-img">
+                            <img src="{% static 'assets/image/portfolio/image2.jpg' %}" alt="portlio-image" class="img-fluid">
+                            <span>UI/UX Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item uidesign webdesign">
+                    <a href="{% static 'assets/image/portfolio/3.jpg' %}" class="light-box">
+                        <div class="port-img">
+                            <img src="{% static 'assets/image/portfolio/image3.jpg' %}" alt="portlio-image" class="img-fluid">
+                            <span>Web Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item webdesign photography uidesign">
+                    <a href="{% static 'assets/image/portfolio/4.jpg' %}" class="light-box">
+                        <div class="port-img">
+                            <img src="{% static 'assets/image/portfolio/image4.jpg' %}" alt="portlio-image" class="img-fluid">
+                            <span>UI/UX Design</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 grid-item photography uidesign">
+                    <a href="{% static 'assets/image/portfolio/5.jpg' %}" class="light-box">
+                        <div class="port-img">
+                            <img src="{% static 'assets/image/portfolio/image5.jpg' %}" alt="portlio-image" class="img-fluid">
+                            <span>Photography</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== 1.5 Portfolio Area End ====================-->
