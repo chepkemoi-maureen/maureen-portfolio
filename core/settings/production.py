@@ -1,5 +1,7 @@
 from .base import *
 
+ALLOWED_HOSTS += ['mibei.pythonanywhere.com']
+
 MIDDLEWARE = [
     'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.security.SecurityMiddleware',
