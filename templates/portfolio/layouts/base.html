@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
+    {% load static %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/png" href="assets/image/logo/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="{% static 'assets/image/logo/favicon.ico' %}">
     <title>Lizu - Portfolio Responsive HTML Template</title>
     {% include 'portfolio/include/styles.html' %}
 </head>
@@ -14,7 +15,7 @@
     <!-- ===============  preloader Area Start ====================-->
     <div id="preloader">
         <div class="loader">
-            <img src="assets/image/logo/loader.gif" alt="preloader">
+            <img src="{% static 'assets/image/logo/loader.gif' %}" alt="preloader">
         </div>
     </div>
 <!--    header-->

@@ -481,7 +481,7 @@ section.about-area {
 }
 
 .about-area::after {
-    background: url(../image/about/about-bg.png);
+    background: url(../image/home/profile.jpeg);
     background-position: left;
     background-repeat: no-repeat;
     width: 45%;

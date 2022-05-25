@@ -1,7 +1,7 @@
   {% load static %}
   <section class="home" id="home">
         <div class="profile">
-            <img src="{% static 'assets/image/home/portfolio.jpg' %}" alt="portfolio">
+            <img src="{% static 'assets/image/home/profile.jpeg' %}" alt="portfolio">
             <a class="lightbox-video" href="#">
                 <div class="video">
                     <div class="play-btn">
@@ -18,18 +18,16 @@
                             <span>Hello, </span> I’m Maureen Chepkemoi
                         </h1>
                         <h4>Frontend Developer</h4>
-                        <a class="theme-btn hover-target" href="#">Download<span> CV</span></a>
+                        <a class="theme-btn hover-target" href="{% static 'assets/cv/maureen-chepkemoi-resume.pdf' %}" download="">Download<span> CV</span></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="social-media">
             <ul>
-                <li class="active"><a class="hover-target" href="#"><span>facebook</span> <i class="fab fa-facebook-f"></i></a></li>
-                <li><a class="hover-target" href="#"><span>linkedin</span> <i class="fab fa-linkedin-in"></i></a></li>
-                <li><a class="hover-target" href="#"><span>github</span> <i class="fab fa-github"></i></a></li>
-                <li><a class="hover-target" href="#"><span>behance</span> <i class="fab fa-behance"></i></a></li>
-                <li><a class="hover-target" href="#"><span>pinterest</span> <i class="fab fa-pinterest-p"></i></a></li>
+                <li class="active"><a class="hover-target" href="https://web.facebook.com/maureen.chepkemoi.376" target="_blank"><span>facebook</span> <i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="hover-target" href="https://www.linkedin.com/in/maureen-chepkemoi-97b9b4171/" target="_blank"><span>linkedin</span> <i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="hover-target" href="https://github.com/chepkemoi-maureen/maureen-portfolio"target="_blank"><span>github</span> <i class="fab fa-github"></i></a></li>
             </ul>
         </div>
     </section>
